@@ -58,7 +58,7 @@
 							<ul class="nav navbar-nav">
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-										Exploratory Data Analysis
+										Computational Problems involving Marko Chains
 									</a>
 									<ul class="dropdown-menu" role="menu">
 										<li class="dropdown-header">Topics</li>
@@ -67,7 +67,7 @@
 											<a href="../../topics/00-Module_Overview_and_Introduction/index.html">Module Overview and Introduction</a>
 										</li>
 										
-										<li class="active">
+										<li >
 											<a href="../../topics/01-Exploratory_Data_Analysis/index.html">Exploratory Data Analysis</a>
 										</li>
 										
@@ -75,12 +75,8 @@
 											<a href="../../topics/02-Computational_Problems_Involving_Probability/index.html">Computational Problems Involving Probability</a>
 										</li>
 										
-										<li >
+										<li class="active">
 											<a href="../../topics/03-Computational_Problems_involving_Marko_Chains/index.html">Computational Problems involving Marko Chains</a>
-										</li>
-										
-										<li >
-											<a href="../../topics/04-Computational_Problems_involving_Monte_Carlo_techniques/index.html">Computational Problems involving Monte Carlo techniques</a>
 										</li>
 										
 									</ul>
@@ -101,11 +97,11 @@
 										<li class="dropdown-header">Resources</li>
 										
 										<li >
-											<a href="#01-Top_X_pandas_commands">Top X pandas commands</a>
+											<a href="#01-Review_of_Markov_Chains">Review of Markov Chains</a>
 										</li>
 										
 										<li >
-											<a href="#03-Case_Study_-_Ceramic_Strength">Case Study - Ceramic Strength</a>
+											<a href="#02-The_Collector_Problem">The Collector Problem</a>
 										</li>
 										
 									</ul>
@@ -141,7 +137,7 @@
 		<!-- topic meta -->
 		<div class="panel panel-info">
 			<div class="panel-heading">	
-				<h3 class="panel-title">Exploratory Data Analysis</h3>
+				<h3 class="panel-title">Computational Problems involving Marko Chains</h3>
 			</div>
 			<div class="panel-body" style="color:gray">
 				
@@ -150,7 +146,7 @@
 				        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width:170px">
 							<img class="km" src="topic.png" width="100%" alt=""></div>
 				        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-							<span><p>Given that most (all?) of you have selected the <em>Data Mining 1</em> elective,  I thought it might be useful if we start this module with some data mining  type activities. Hopefully seeing the python <code>pandas</code> library in both  modules will help getting you up to speed with it quickly.</p></span>
+							<span><p>Marko chains are models where the system can be in any one of distinct states and we  have known, fixed probabilities of transiting between various pairs of states.</p></span>
 							<ul>
 								
 							</ul>
@@ -168,30 +164,24 @@
 				
 
 <li class="media">
-	<a class="kmaa" id="01-Top_X_pandas_commands"></a>
+	<a class="kmaa" id="01-Review_of_Markov_Chains"></a>
 	<span class=" fa  fa-book pull-left kmheading" style="font-size:200%"></span>
 	<div class="media-body">
-		<h4 class="media-heading kmheading">Top X pandas commands</h4>
-		<span>Pandas is a huge library and it is not practical to give a detailed description of its capabilities in a single session. So I'm going to focus on some of the operations that I find most useful.</span>
+		<h4 class="media-heading kmheading">Review of Markov Chains</h4>
+		<span>Review of Markov chains</span>
 		<div></div>
 		<ul>
 			
-			<li>Reading data formats</li>
+			<li>Some simple models</li>
 			
-			<li>Computing descriptive statistics</li>
-			
-			<li>Processing data by filtering and grouping</li>
+			<li>Termonology and defitions</li>
 			
 		</ul>
 		<ul class="pager">
 			
-		  	<li><a class="kmpill" href="01-Top_X_pandas_commands/01-01-Top_X_pandas_commands-Slides-Handout.pdf" >Handout</a></li>
+		  	<li><a class="kmpill" href="01-Review_of_Markov_Chains/03-01-Review_of_Markov_Chains-Slides-Handout.pdf" >Handout</a></li>
 			
-		  	<li><a class="kmpill" href="01-Top_X_pandas_commands/01-01-Top_X_pandas_commands-Slides-Presentation.pdf" >Presentation</a></li>
-			
-		  	<li><a class="kmpill" href="01-Top_X_pandas_commands/./files/marks.csv" >marks.csv</a></li>
-			
-		  	<li><a class="kmpill" href="https://moodle.wit.ie/mod/assign/view.php?id=3324744" >Upload your notebook</a></li>
+		  	<li><a class="kmpill" href="01-Review_of_Markov_Chains/03-01-Review_of_Markov_Chains-Slides-Presentation.pdf" >Presentation</a></li>
 			
 		</ul>
 	</div>
@@ -200,18 +190,24 @@
 				
 
 <li class="media">
-	<a class="kmaa" id="03-Case_Study_-_Ceramic_Strength"></a>
-	<span class=" glyphicon glyphicon-wrench pull-left kmheading" style="font-size:200%"></span>
+	<a class="kmaa" id="02-The_Collector_Problem"></a>
+	<span class=" fa  fa-book pull-left kmheading" style="font-size:200%"></span>
 	<div class="media-body">
-		<h4 class="media-heading kmheading">Case Study - Ceramic Strength</h4>
-		<span>This practical will use a case study from NIST Engineering Statistics Handbook, analysing the effects of machining factors on the strength of ceramics to demonstrate visualisation using pandas.</span>
+		<h4 class="media-heading kmheading">The Collector Problem</h4>
+		<span>The Collector Problem</span>
 		<div></div>
 		<ul>
+			
+			<li>Problem statement</li>
+			
+			<li>Sample run</li>
 			
 		</ul>
 		<ul class="pager">
 			
-		  	<li><a class="kmpill" href="03-Case_Study_-_Ceramic_Strength/00-Outline.html" >Open</a></li>
+		  	<li><a class="kmpill" href="02-The_Collector_Problem/03-02-The_Collector_Problem-Slides-Handout.pdf" >Handout</a></li>
+			
+		  	<li><a class="kmpill" href="02-The_Collector_Problem/03-02-The_Collector_Problem-Slides-Presentation.pdf" >Presentation</a></li>
 			
 		</ul>
 	</div>
